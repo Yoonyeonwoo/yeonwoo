@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX</title>
+    <script src="m_menu.js" defer></script>
+    <link rel="stylesheet" href="m_master2.css">
+    <link rel="stylesheet" href="aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+      <header>
+        <nav>
+          <div class="logo"><a href="m_main.html"><img src="img/m_i_01_logo.png" alt="로고"></a></div>
+          <div class="menu"><img src="img/m_i_02_menu.png" alt="메뉴"></div>
+        </nav>
+        <div class="nav_menu">
+          <ul>
+            <li><a href="m_sub01.html">UI/UX</a></li>
+            <li><a href="m_sub02.html">IDENTITY</a></li>
+            <li><a href="m_sub03.html">EDITED</a></li>
+            <li><a href="m_sub04.html">PACKAGE</a></li>
+          </ul>
+        </div>
+      </header>
+      <section>
+        <div class="m_sub01_top">..</div>
+        <div class="m_sub01_con01">
+            <div class="m_sub01_con01_wrap">
+                <div class="m_sub01_01 aos-init aos-animate" data-aos="fade-up">
+                    <img src="img/m_sub01_01.png" alt="">
+                </div>
+                <div class="m_sub01_02 aos-init aos-animate" data-aos="fade-up">
+                    <img src="img/m_sub01_02.png" alt="">
+                </div>
+                <div class="m_sub01_03 aos-init aos-animate" data-aos="fade-up">
+                    <img src="img/m_sub01_03.png" alt="">
+                </div>
+                <div class="m_sub01_04 aos-init aos-animate" data-aos="fade-up">
+                    <img src="img/m_sub01_04.png" alt="">
+                </div>
+                <div class="m_sub01_05 aos-init aos-animate" data-aos="fade-up-left">
+                    <img src="img/m_sub01_05.png" alt="">
+                </div>
+                <div class="m_sub01_06 aos-init aos-animate" data-aos="fade-up">
+                    <img src="img/m_sub01_03a.png" alt="">
+                </div>
+                <div class="m_sub01_07 aos-init aos-animate" data-aos="fade-up">
+                  <img src="img/m_sub01_06.png" alt="">
+              </div>
+            </div>    
+        </div>
+        <div class="mid"></div>
+    </section>
+    
+    <footer>
+      <div class="foot">
+          <div class="foot_left">
+              <img src="img/m_footer_left.png" alt="">
+          </div> 
+          <div class="foot_right">
+              <img src="img/m_footer_right.png" alt="">
+          </div>
+      </div>
+  </footer>
+  <script src="js/aos.js"></script>
+  <script> AOS.init({ easing: 'ease-in-out-sine' }); </script>
+  <script type="text/javascript" src="js/jquery-latest.js"></script>
+  <script>
+              function fnMove(seq){
+                  var offset = $("#anchor" + seq).offset();
+                  $('html, body').animate({scrollTop : offset.top},500);
+              }
+  </script>
+</body>
